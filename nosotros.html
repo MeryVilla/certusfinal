@@ -13,11 +13,11 @@
   <!-- ************************************************************************ -->
   <!-- CSS -->
   <link rel="stylesheet" href="css/index.css">
-  <title>Contacto</title>
-  <script src="js/contact.js" defer></script>
+  <title>Nosotros</title>
 </head>
 
 <body>
+  <header></header>
   <nav class="navbar navbar-expand-lg bg-light border border-3">
     <section class="container-fluid">
       <a class="navbar-brand" href="./">SERBINPLAST</a>
@@ -49,62 +49,52 @@
     </section>
   </nav>
 
+  <main class="container mt-5">
 
-
-  <main class="container">
-
-    <section class="row">
-      <section class="col-12 col-md-6 bg-info datos-serbinplast py-5 bg-es-imagen">
-        <address>
-          <ul class="d-flex flex-column gap-3 h-100">
-            <li>0000000000 000000000</li>
-            <li>Dirección Oficina: </li>
-            <li>Dirección Taller: </li>
-            <li><a href="mailto:contacto@real.com">contacto@serbinplast.com</a></li>
-            <li>Horarios de atención: Lunes a sábado, de 8:00 am a 5:00pm</li>
-          </ul>
-        </address>
-
+    <section class="row p-3 my-5">
+      <section class="col-12 col-md-6 d-flex">
+        <iframe class="m-auto" width="560" height="315" src="https://www.youtube.com/embed/sWzxfeEPnNc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
-      <section class="col-12 col-md-6 bg-light border datos-persona">
-        <h2 class="pt-3 ps-3">Déjanos un mensaje</h2>
-        <form class="px-3 this-form">
-          <section class="">
-            <label for="InputName" class="form-label">Nombre completo</label>
-            <input type="email" class="form-control" id="InputName" aria-describedby="nameHelp">
-          </section>
-          <section class=" mt-3">
-            <label for="InputEmail" class="form-label ">Su correo</label>
-            <input type="email" class="form-control" id="InputEmail">
-
-          </section>
-          <section class=" mt-3">
-            <label for="InputPhone" class="form-label ">Su número celular</label>
-            <input type="text" class="form-control" id="InputPhone">
-
-          </section>
-          <section class="mt-3">
-            <label for="mensajeInput">Su mensaje</label>
-            <textarea name="" id="mensajeInput" cols="30" rows="10" maxlength="500" class="form-control"></textarea>
-          </section>
-          <section class="form-check mt-3">
-            <input type="checkbox" class="form-check-input" id="InputCheck" checked>
-            <label class="form-check-label" for="InputCheck">Confirmo que brindo mis datos</label>
-          </section> <!-- aunque el usuario le de check eso no cambia el html, por eso lo deje checked de forma predeterminada -->
-          <section class="d-flex justify-content-center my-3">
-            <input type="button" class="y" id="InputSubmit" value="Enviar"></input>
-          </section>
-        </form>
+      <section class="col-12 col-md-6 datos-serbinplast p-3 border">
+        <h3 class="text-center">¿Quiénes somos?</h3>
+        <p class="mt-5 text-center">Somos una empresa peruana con mas de 4 años de experiencia en la aplicación de recubrimientos industriales y como proteccion en control de la corrosión
+        </p>
       </section>
     </section>
 
-    <section class="mt-3 container border p-0">
-
-      <!-- <section class="d-flex flex-column align-items-center"> -->
-      <picture><img class="img-fluid" src="https://www.bbva.com/wp-content/uploads/2018/02/calle-sauceda-ciudad-bbva-mymaps-768x378.jpg" alt="" srcset=""></picture>
-      <p>Visítanos</p>
+    <section class="row p-3 my-5">
+      <section class="col-12 d-flex flex-column align-items-center">
+        <h3 class="text-center">Nuestra cultura</h3>
+        <picture class="figure-img"><img class="img-fluid" src="img/galeria/foto.png" alt="" srcset=""></picture>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur magnam dolorum illo quis? Vel eum quidem blanditiis eos ab aperiam fugit? Voluptatum veritatis commodi nemo.</p>
+        </li>
+      </section>
     </section>
 
+    <section class="row p-3 my-5">
+      <section class="col-12 col-md-6 border">
+        <h3 class="text-center">Visión</h3>
+        <p>SERPINBLAST EIRL será la empresa peruana lider en la region en brindar soluciones para el control de la corrosion de todo tioo de materiales y superficies bajo cualquier condición de operación. Trabajando con un alto estándar de calidad, seguridad, compromiso, social y cuidado del medio ambiente. </p>
+      </section>
+      <section class="col-12 col-md-6 ">
+        <picture class="figure-img d-flex h-100">
+          <!-- h-100 y m-auto en imagen para centrar verticalmente -->
+          <img class="img-fluid m-auto" src="img/galeria/foco.png" alt="">
+        </picture>
+      </section>
+
+      <section class="row p-3 my-5 d-flex flex-wrap">
+        <section class="col-12 col-md-6 order-2 order-md-1">
+          <picture class="figure-img d-flex h-100">
+            <img class="img-fluid m-auto" src="img/galeria/objetivos.png" alt="" srcset="">
+          </picture>
+        </section>
+        <section class="col-12 col-md-6 border order-1 order-md-2">
+          <h3 class="text-center">Misión</h3>
+          <p>Brindar un servicio a medida con una amplia gama de soluciones para nuestro cliente en la aplicación de recubrientos
+            industriales y metodos para el control de corrosión, cumpliendo con espacificaciones de trabajo mas exigentes, a travez de un personal altamente competitivo..</p>
+        </section>
+      </section>
   </main>
   <section class="">
     <!-- Footer -->
@@ -114,7 +104,7 @@
         <!--Grid row-->
         <section class="row">
           <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <section class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 class="text-uppercase">SerpinBlast</h5>
 
             <p>
@@ -122,7 +112,7 @@
               molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
               aliquam voluptatem veniam, est atque cumque eum delectus sint!
             </p>
-          </div>
+          </section>
           <!--Grid column-->
 
           <!--Grid column-->
